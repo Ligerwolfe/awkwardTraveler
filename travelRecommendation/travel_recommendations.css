@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  width: 100%;
+  display: flex;
+}
+
+nav {
+  width: 100%;
+  height: 20px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #483d8b;
+  background-color: #483d8b;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  padding: 0 10px;
+  height: 100%;
+  line-height: normal;
+  font-size: 1em;
+  color: #483d8b;
+}
+
+nav a:hover {
+  background-color: #483d8b;
+  color: white;
+}
+div.searchBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1.5px solid #483d8b;
+  position: absolute;
+  font-size: 1em;
+  padding-left: 10px;
+  font-size: 0.8em;
+  font-style: italic;
+  cursor: pointer;
+}
+
+div button {
+  z-index: 1;
+  position: relative;
+  right: 10px;
+  width: 85px;
+  border-radius: 10px;
+  border: none;
+  padding: 2px;
+  font-size: 1em;
+  color: white;
+  background-color: #483d8b;
+}
+
+button:hover {
+  background-color: white;
+  border: 0;
+  color: #483d8b;
+}
+@media screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+  }
+
+  nav a {
+    font-size: 0.8em;
+  }
+
+  div.searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+  }
+
+  input[type="text"] {
+    width: 450px;
+    height: 30px;
+    font-size: 0.5em;
+    position: absolute;
+  }
+
+  div button {
+    width: 60px;
+    font-size: 0.7em;
+    position: relative;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  input[type="text"] {
+    width: 200px;
+    height: 30px;
+    font-size: 0.5em;
+  }
+  div button {
+    width: 50px;
+    font-size: 0.6em;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav a {
+    font-size: 0.8em;
+  }
+}
