@@ -93,7 +93,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: start;
+  align-items: center;
   gap: 50px;
   overflow: none;
 }
@@ -124,7 +124,7 @@ div.socials {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   color: #dedcef;
 }
 
@@ -134,7 +134,7 @@ h2 {
 }
 
 p {
-  background-color: rgb(206, 202, 232);
+  background-color: rgba(206, 202, 232, 0.8);
   opacity: 0.8;
   color: #000;
   padding: 5px;

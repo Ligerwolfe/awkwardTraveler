@@ -12,6 +12,7 @@ body {
   padding: 0;
   overflow: none;
 }
+
 /* Nav Section */
 
 nav {
@@ -51,8 +52,12 @@ div.logo {
 
 /* Main Section */
 
-#aboutUsMain {
+#main {
   background-image: url("/travelRecommendation/images/City.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -60,7 +65,7 @@ div.logo {
   gap: 20px;
 }
 
-#aboutSideNav {
+#sideNav {
   display: flex;
   flex-direction: column;
   gap: 10px;

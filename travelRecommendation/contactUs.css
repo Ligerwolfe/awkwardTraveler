@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  overflow: none;
+}
+
+/* Nav Section */
+
+nav {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #483d8b;
+  padding: 0 20px;
+}
+
+.links a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  padding: 0 5px;
+  color: #dedcef;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+div.logo {
+  color: #dedcef;
+}
+
+/* Main Section */
+#main {
+  background-image: url("/travelRecommendation/images/City.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+#sideNav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+  align-self: center;
+  width: 50px;
+  height: 300px;
+  background-color: #483d8b;
+  border: 0;
+  padding: 5px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #dedcef;
+}
+
+.contact {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactUs {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.contactUs p {
+  font-size: 1em;
+  color: #dedcef;
+}
+
+.contact-form {
+  background-color: rgba(72, 61, 139, 0.3);
+  display: flex;
+  width: 400px;
+  padding: 40px;
+}
+
+#contactUsForm {
+  width: 100%;
+}
+
+label {
+  color: #dedcef;
+  font-size: 1.2em;
+}
+
+#name,
+#email {
+  width: 100%;
+  height: 30px;
+}
+
+#message {
+  width: 100%;
+}
+
+#submit {
+  width: 85px;
+  padding: 3px 0;
+  border: 0;
+  border-radius: 3px;
+  background-color: #483d8b;
+  color: #dedcef;
+}
+
+#submit:hover,
+#submit:active {
+  background-color: #dedcef;
+  color: #483d8b;
+}
